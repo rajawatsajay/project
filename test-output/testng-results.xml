@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19901" started-at="2018-06-25T11:02:31Z" finished-at="2018-06-25T11:02:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19901" started-at="2018-06-25T11:02:31Z" finished-at="2018-06-25T11:02:51Z">
+      <class name="com.ajay.AdvanceSelenium.BookingTicket">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="beforeTest" is-config="true" duration-ms="10708" started-at="2018-06-25T16:32:31Z" finished-at="2018-06-25T16:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="login" duration-ms="8247" started-at="2018-06-25T16:32:43Z" data-provider="loginData" finished-at="2018-06-25T16:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidUN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-25T16:32:51Z" finished-at="2018-06-25T16:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ajay.AdvanceSelenium.BookingTicket -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
