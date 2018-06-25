@@ -5,8 +5,9 @@
     <classes>
       <class name="com.ajay.AdvanceSelenium.BookingTicket">
         <methods>
+          <include name="bookTicket"/>
           <include name="beforeTest"/>
-          <include name="login"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.ajay.AdvanceSelenium.BookingTicket -->
     </classes>

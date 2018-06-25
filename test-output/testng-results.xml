@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19901" started-at="2018-06-25T11:02:31Z" finished-at="2018-06-25T11:02:51Z">
+  <suite name="Default suite" duration-ms="18526" started-at="2018-06-25T12:40:24Z" finished-at="2018-06-25T12:40:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19901" started-at="2018-06-25T11:02:31Z" finished-at="2018-06-25T11:02:51Z">
+    <test name="Default test" duration-ms="18526" started-at="2018-06-25T12:40:24Z" finished-at="2018-06-25T12:40:42Z">
       <class name="com.ajay.AdvanceSelenium.BookingTicket">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="beforeTest" is-config="true" duration-ms="10708" started-at="2018-06-25T16:32:31Z" finished-at="2018-06-25T16:32:42Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="beforeTest" is-config="true" duration-ms="9697" started-at="2018-06-25T18:10:24Z" finished-at="2018-06-25T18:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="login" duration-ms="8247" started-at="2018-06-25T16:32:43Z" data-provider="loginData" finished-at="2018-06-25T16:32:51Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="login" duration-ms="5012" started-at="2018-06-25T18:10:35Z" data-provider="loginData" finished-at="2018-06-25T18:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-25T16:32:51Z" finished-at="2018-06-25T16:32:51Z">
+        <test-method status="PASS" signature="bookTicket()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="bookTicket" duration-ms="2846" started-at="2018-06-25T18:10:40Z" finished-at="2018-06-25T18:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ajay.AdvanceSelenium.BookingTicket@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-25T18:10:42Z" finished-at="2018-06-25T18:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
