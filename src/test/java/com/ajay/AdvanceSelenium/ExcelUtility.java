@@ -36,14 +36,12 @@ public class ExcelUtility {
 	public static String[][] getExcelTable() {
 		int noOfRows = sheet.getPhysicalNumberOfRows();
 		int numOfCols = 2;
-		int ci, cj;
-		ci = 1;
-		cj = 1;
+
 		String[][] excelData = new String[noOfRows][numOfCols];
-		for (int i = 0; i < noOfRows; i++, ci++) {
-			cj = 1;
-			for (int j = 0; j < numOfCols; j++, cj++) {
-				excelData[i][j] = getCellData(ci, cj);
+		for (int i = 0; i < noOfRows; i++) {
+
+			for (int j = 0; j < numOfCols; j++) {
+				excelData[i][j] = getCellData(i, j);
 			}
 		}
 		return excelData;
